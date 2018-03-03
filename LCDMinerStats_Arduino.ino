@@ -53,6 +53,7 @@ void setup(void) {
       identifier=0x9341;
   tft.begin(identifier);
   tft.setRotation(2);
+  Serial.println("Boot");
 }
 
 void printCentered(String str, int color, int sizeStr, bool ret){
