@@ -1,5 +1,5 @@
-#include <Adafruit_GFX.h>    // Core graphics library
-#include <Adafruit_TFTLCD.h> // Hardware-specific library
+#include "Adafruit_GFX/Adafruit_GFX.h"    // Core graphics library
+#include "Adafruit_TFTLCD/Adafruit_TFTLCD.h" // Hardware-specific library
 
 #define LCD_CS A3 // Chip Select goes to Analog 3
 #define LCD_CD A2 // Command/Data goes to Analog 2
